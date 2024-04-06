@@ -1,11 +1,9 @@
 
 from budget_category import BudgetCategory
 
-# from expense_category import ExpenseCategory
 
 print("\nWelcome to the Budget Palooza! Balance your budgets and expenses!")
 
-# start by adding Budgets
 budget_list = BudgetCategory()
 
 print('\n')
@@ -21,25 +19,6 @@ while True:
     else:
         print("\nPlease enter a valid input.\n")
     
-# expense_category = input("Now, let's add an expense! First, what was the expense on? ")
-# expense_money = input("How much did that cost? ")
-
-
-
-# expense_list = ExpenseCategory()
-# while True:
-#     add_input = input('\nWould you like to add an expense? y/n ')
-#     if add_input == 'n':
-#         break
-#     elif add_input == 'y':
-#         expense_list.set_expense()
-#         expense_list.display_expense_summary()
-#         break
-#     else:
-#         print("\nPlease enter a valid input.\n")
-
-
-
 
 
 
